@@ -1,16 +1,22 @@
 {
   "version": 2,
-  "dgSpecHash": "082Q6xo51e/StsRI3YrMfixKYaHEsdKqQp7M1Cj+NbIZqoboiSFlNzWQRL3b/ClR60KZFnfTG8JS8t45KXJBuw==",
+  "dgSpecHash": "8udbaNTwuJELbA7yj+9MtiGuMTu5PSmsdNkPVyM57uEDrozrFxuc4BR56jTvjISgbYhhVEdTL1B+Ync1Zj2JFw==",
   "success": true,
   "projectFilePath": "C:\\Users\\13199\\source\\repos\\G-P\\G-P.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\13199\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
+    "C:\\Users\\13199\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
+    "C:\\Users\\13199\\.nuget\\packages\\entityframeworkcore.data.querybuilder.abstractions\\7.0.4\\entityframeworkcore.data.querybuilder.abstractions.7.0.4.nupkg.sha512",
     "C:\\Users\\13199\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.0\\microsoft.aspnetcore.openapi.7.0.0.nupkg.sha512",
+    "C:\\Users\\13199\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\13199\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.3\\microsoft.entityframeworkcore.7.0.3.nupkg.sha512",
     "C:\\Users\\13199\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.3\\microsoft.entityframeworkcore.abstractions.7.0.3.nupkg.sha512",
     "C:\\Users\\13199\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.3\\microsoft.entityframeworkcore.analyzers.7.0.3.nupkg.sha512",
+    "C:\\Users\\13199\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\7.0.3\\microsoft.entityframeworkcore.relational.7.0.3.nupkg.sha512",
     "C:\\Users\\13199\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\13199\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\7.0.0\\microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\13199\\.nuget\\packages\\microsoft.extensions.caching.memory\\7.0.0\\microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
+    "C:\\Users\\13199\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\13199\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
     "C:\\Users\\13199\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\13199\\.nuget\\packages\\microsoft.extensions.logging\\7.0.0\\microsoft.extensions.logging.7.0.0.nupkg.sha512",
@@ -18,10 +24,17 @@
     "C:\\Users\\13199\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\microsoft.extensions.options.7.0.0.nupkg.sha512",
     "C:\\Users\\13199\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
     "C:\\Users\\13199\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
+    "C:\\Users\\13199\\.nuget\\packages\\microsoft.win32.systemevents\\8.0.0-preview.1.23110.8\\microsoft.win32.systemevents.8.0.0-preview.1.23110.8.nupkg.sha512",
     "C:\\Users\\13199\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
     "C:\\Users\\13199\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
     "C:\\Users\\13199\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
-    "C:\\Users\\13199\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+    "C:\\Users\\13199\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512",
+    "C:\\Users\\13199\\.nuget\\packages\\system.configuration.configurationmanager\\8.0.0-preview.1.23110.8\\system.configuration.configurationmanager.8.0.0-preview.1.23110.8.nupkg.sha512",
+    "C:\\Users\\13199\\.nuget\\packages\\system.diagnostics.eventlog\\8.0.0-preview.1.23110.8\\system.diagnostics.eventlog.8.0.0-preview.1.23110.8.nupkg.sha512",
+    "C:\\Users\\13199\\.nuget\\packages\\system.drawing.common\\8.0.0-preview.1.23110.8\\system.drawing.common.8.0.0-preview.1.23110.8.nupkg.sha512",
+    "C:\\Users\\13199\\.nuget\\packages\\system.security.cryptography.protecteddata\\8.0.0-preview.1.23110.8\\system.security.cryptography.protecteddata.8.0.0-preview.1.23110.8.nupkg.sha512",
+    "C:\\Users\\13199\\.nuget\\packages\\system.security.permissions\\8.0.0-preview.1.23110.8\\system.security.permissions.8.0.0-preview.1.23110.8.nupkg.sha512",
+    "C:\\Users\\13199\\.nuget\\packages\\system.windows.extensions\\8.0.0-preview.1.23110.8\\system.windows.extensions.8.0.0-preview.1.23110.8.nupkg.sha512"
   ],
   "logs": []
 }

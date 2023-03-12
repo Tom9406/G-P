@@ -11,18 +11,9 @@ namespace G_P
         {
         }
         // con esto definiremos el nombre de la tabla que se va a crear en el db 
-        public DbSet<Genre> Genres { get; set; }
+        //Matrimonios
+        public DbSet<matrimonios> Matrimonios { get; set; }
 
-        //EXAM 
-        public DbSet<exam> Subjects { get; set; }
-
-        //User
-        public DbSet<user> User { get; set; }
-
-        //Login
-        public DbSet<login> login { get; set; }
-
-        //Score
-        public DbSet<Score> Score { get; set; }
+        
     }
 }
