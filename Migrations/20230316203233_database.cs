@@ -1,11 +1,12 @@
-﻿using Microsoft.EntityFrameworkCore.Migrations;
+﻿using System;
+using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace G_P.Migrations
+namespace GP.Migrations
 {
     /// <inheritdoc />
-    public partial class initial1 : Migration
+    public partial class database : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -16,8 +17,8 @@ namespace G_P.Migrations
                 {
                     id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    id_matrimonio = table.Column<int>(type: "int", nullable: false),
-                    fecha = table.Column<int>(type: "int", nullable: false)
+                    idmatrimonio = table.Column<int>(name: "id_matrimonio", type: "int", nullable: false),
+                    fecha = table.Column<DateTime>(type: "datetime2", nullable: false)
                 },
                 constraints: table =>
                 {
