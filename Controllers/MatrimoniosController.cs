@@ -1,7 +1,9 @@
 ﻿using AutoMapper;
 using G_P.Dto;
+using G_P.Entities;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+
 
 namespace G_P.Controllers
 {
@@ -18,11 +20,22 @@ namespace G_P.Controllers
             this.mapper = mapper;
         }
 
-        [HttpGet]
-        public async Task<ActionResult<List<MatrimoniosDTO>>> Get()
+        [HttpGet("matrimonio")]
+        public async Task<ActionResult<List<MatrimoniosDTO>>> GetMatrimonios()
         {
-            var matrimonios = await context.Subjects.ToListAsync();
+
+            var matrimonio = await context.matrimonios.ToListAsync();           
+            return mapper.Map<List<MatrimoniosDTO>>(matrimonio);
 
         }
+        [HttpPost("matrimonios")]
+        public async Task<ActionResult> Post([FromBody] MatrimoniosCreationDTO matrimoniosCreationDTO)
+        {
+            var matrimonios = mapper.Map<matrimonios>(matrimoniosCreationDTO);
+            context.Add(matrimonios);
+            await context.SaveChangesAsync();
+            return NoContent();
+        }
+
     }
 }
