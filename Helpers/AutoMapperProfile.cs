@@ -10,6 +10,9 @@ namespace G_P.Helpers
         {
             CreateMap<MatrimoniosDTO, matrimonios>().ReverseMap();
             CreateMap<MatrimoniosCreationDTO, matrimonios>();
+
+            CreateMap<InscrbirDTO, inscribir_matrimoio>().ReverseMap();
+            CreateMap<InscribirCreationDTO, inscribir_matrimoio>();
         }
     }
 }

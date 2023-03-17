@@ -1,11 +1,7 @@
-﻿using System.ComponentModel.DataAnnotations;
-
-namespace G_P.Entities
+﻿namespace G_P.Dto
 {
-    public class inscribir_matrimoio
+    public class InscribirCreationDTO
     {
-        [Key]
-        public int id { get; set; }
 
         public string contrayente_1_nombre { get; set; }
 
@@ -60,6 +56,5 @@ namespace G_P.Entities
         public string observaciones_contrayente_2 { get; set; }
 
         public DateTime fecha_inscripcion_matrimonio { get; set; }
-
     }
 }
