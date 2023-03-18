@@ -23,7 +23,10 @@ namespace G_P.Controllers
         [HttpPost("inscripcion")]
         public async Task<ActionResult> Post([FromBody] InscribirCreationDTO inscribirCreationDTO)
         {
-            var inscripcion = mapper.Map<inscribir_matrimoio>(inscribirCreationDTO);
+            var random = new Random();
+            var referenceNumber = "REF-" + random.Next(20000000).ToString("D7");
+            inscribirCreationDTO.codigo_referencia = referenceNumber;
+            var inscripcion = mapper.Map<inscribir_matrimoio>(inscribirCreationDTO);           
             context.Add(inscripcion);
             await context.SaveChangesAsync();
             return NoContent();

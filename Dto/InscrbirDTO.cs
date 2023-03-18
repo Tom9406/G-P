@@ -61,5 +61,7 @@ namespace G_P.Dto
         public string observaciones_contrayente_2 { get; set; }
 
         public DateTime fecha_inscripcion_matrimonio { get; set; }
+
+        public string codigo_referencia { get; set; }
     }
 }

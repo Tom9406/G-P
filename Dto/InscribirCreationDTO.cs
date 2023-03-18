@@ -2,7 +2,7 @@
 {
     public class InscribirCreationDTO
     {
-
+        public string codigo_referencia { get; set; }
         public string contrayente_1_nombre { get; set; }
 
         public string contrayente_1_apellido_1 { get; set; }

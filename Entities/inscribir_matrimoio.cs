@@ -61,5 +61,7 @@ namespace G_P.Entities
 
         public DateTime fecha_inscripcion_matrimonio { get; set; }
 
+        public string codigo_referencia { get; set; }
+
     }
 }
