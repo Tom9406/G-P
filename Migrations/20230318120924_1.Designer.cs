@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace GP.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20230317232915_databasetony")]
-    partial class databasetony
+    [Migration("20230318120924_1")]
+    partial class _1
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -45,6 +45,10 @@ namespace GP.Migrations
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("id"));
+
+                    b.Property<string>("codigo_referencia")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("contrayente_1_apellido_1")
                         .IsRequired()
@@ -79,6 +83,9 @@ namespace GP.Migrations
                     b.Property<DateTime>("fecha_nacimiento_contrayente_2")
                         .HasColumnType("datetime2");
 
+                    b.Property<int>("folio")
+                        .HasColumnType("int");
+
                     b.Property<string>("madre_contrayente_1_apellido_1")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -100,6 +107,10 @@ namespace GP.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("madre_contrayente_2_nombre")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("municipio")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -143,6 +154,10 @@ namespace GP.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("provincia")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("provincia_nacimiento_contrayente_1")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -150,6 +165,9 @@ namespace GP.Migrations
                     b.Property<string>("provincia_nacimiento_contrayente_2")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("tomo")
+                        .HasColumnType("int");
 
                     b.HasKey("id");
 

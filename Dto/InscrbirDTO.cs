@@ -63,5 +63,13 @@ namespace G_P.Dto
         public DateTime fecha_inscripcion_matrimonio { get; set; }
 
         public string codigo_referencia { get; set; }
+
+        public int tomo { get; set; }
+
+        public int folio { get; set; }
+
+        public string municipio { get; set; }
+
+        public string provincia { get; set; }
     }
 }

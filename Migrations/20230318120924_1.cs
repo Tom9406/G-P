@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace GP.Migrations
 {
     /// <inheritdoc />
-    public partial class databasetony : Migration
+    public partial class _1 : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -55,7 +55,12 @@ namespace GP.Migrations
                     municipionacimientocontrayente2 = table.Column<string>(name: "municipio_nacimiento_contrayente_2", type: "nvarchar(max)", nullable: false),
                     provincianacimientocontrayente2 = table.Column<string>(name: "provincia_nacimiento_contrayente_2", type: "nvarchar(max)", nullable: false),
                     observacionescontrayente2 = table.Column<string>(name: "observaciones_contrayente_2", type: "nvarchar(max)", nullable: false),
-                    fechainscripcionmatrimonio = table.Column<DateTime>(name: "fecha_inscripcion_matrimonio", type: "datetime2", nullable: false)
+                    fechainscripcionmatrimonio = table.Column<DateTime>(name: "fecha_inscripcion_matrimonio", type: "datetime2", nullable: false),
+                    codigoreferencia = table.Column<string>(name: "codigo_referencia", type: "nvarchar(max)", nullable: false),
+                    tomo = table.Column<int>(type: "int", nullable: false),
+                    folio = table.Column<int>(type: "int", nullable: false),
+                    municipio = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    provincia = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
                 {
